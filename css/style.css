@@ -1,0 +1,111 @@
+body{ background: hsl(0, 0%, 80%);}
+.fondo{ background:#FFF;}
+p{ text-align:justify; padding:10px;}
+h1{ font-family: 'Heebo', sans-serif;}
+.alineacionLogo{ width:40%;	display:inline-block;}
+.alineacionA{ display:inline-block; 	width: 59%; 	text-align: right; }
+ol, ul{ list-style: none;}
+hr{ background:#333; height:1px;}
+.direccion{ text-align:inherit ;padding-top: 25px; width: 50%; display: inline-block;	padding-left: 2%;	height: 100px;}
+.redSocial{ width:49%;	text-align: right;	display: inline-block;}
+.texto{ display: inline-block; width: 60%; padding-left: 60px;}
+.horarios{ width: 39 %; display: inline-block; padding-left: 150px; vertical-align: top; }
+.contenedorT{width: 100%;}
+.saludo{width: 30%;	float: left;}
+.imgSaludo{width: 90%;}
+.bienvenidaT{padding-left:11.5%; padding-top: 0;}
+.informacion{width: 75%;	text-align: justify;	padding: 20px;	margin-left: 0%;}
+.formulario{	width: 60%;	margin-left: 0%; float: left;}
+.contacto{display: inline-block; width: 39%; padding: 0; margin-top: 5px; text-align:center; }
+input{	-webkit-border-radius: 5px 10px;	-moz-border-radius: 5px 10px;	width: 60%;	padding: 4px;	margin: 0; border-color: #000000;}
+.btnContacto{-webkit-border-radius: 10px 10px;	-moz-border-radius: 5px 10px;	width: 30%;	padding: 5px;	margin-left: 10%; margin-top:30px; border-color: #286090; background:#ffbf00bd; color: #000; font-size: 20px;}
+.textArea{width: 60%;}
+.vinetas{	list-style: circle;	padding-left: 25px;	padding-top: 10px;}
+.centrado{ text-align:center;}
+.contac{width: 87%; height:350px;}
+.liMenu{	margin-top: 30px;}
+.somos{display: inline-block; width: 70.5%; padding: 0; margin-top: 5px; }
+.somoa{display: inline-block; width: 29%; padding: 0; margin-top: 5px; vertical-align:top; }
+
+.mnMenu{text-decoration: none;	color: #000000;		padding: 10px;		margin-left: 0; margin-right: 0; margin-bottom: 0; margin-top: 20px;}
+.mnMenu:hover{ background:#CCC; border-radius:5px; color: #ffffff; 	text-decoration: none;	}
+
+#smenub{ display:none;}
+
+.imgaviso img{ padding-top:150px; border-radius:20px;}
+@media only screen and (max-width : 480px) {
+body{ font-size:1.5em;}
+.logo{ max-width: 250%;}
+#smenub{ display:block;}
+.alineacionA{ width:100%;}
+
+.texto{ width:90%;}
+.horarios{ margin-left:0%; padding-left:0px; width:95%; text-align:center;}
+.contenedorT{ text-align:center; width:100%;}
+.bienvenidaT{padding-left:0%; padding-top: 0;}
+
+.direccion{ padding-top:0px; width:90%;	padding-left:0%;}
+.redSocial{ width:95%;}
+
+.liMenu{	margin-top: 0px;}
+nav{ margin-left:-250%;
+		position:absolute;
+		-webkit-transition:all 1s ease-in-out;
+		-moz-transition:all 1s ease-in;
+		-o-transition:all 1s ease-in-out;
+		transition:all 1s ease-out;
+		z-index:2000;			
+		
+		background: #CCC;
+		color: #FFF;
+	}
+
+	nav:target{
+		margin:0;
+		margin-left :0%;
+		width:95%;
+		opacity:.9;
+		height:80%;
+	}
+
+	nav ul li{
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+		
+	}
+.mnMenu{padding:0px;margin-left: 0; margin-top: 10px; display:block; text-align:left;}
+	
+.somos{ width:95%;}
+h1{ font-size: 0%;}
+
+.formulario{	width: 95%;	margin-left: 0%; float:none;}
+.contacto{width:95%; padding: 0; margin-top: 0px; }
+input, .textArea, .btnContacto{ width:95%;}
+
+.btnContacto{padding: 0px;	margin-left: 0%; margin-top:0px;}
+.logos{ width:95%;}
+}
+
+.icon-whatsapp{
+	position: fixed;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	bottom: 30px;
+	right: 30px;
+	background-color: #0df053;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,.3);
+	z-index: 100;
+
+}
+.icon-whatsapp:hover{
+	text-decoration: none;
+	color: #0df053;
+	background-color: #fff;
+}
+

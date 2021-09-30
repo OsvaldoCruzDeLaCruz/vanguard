@@ -1,0 +1,46 @@
+/*  Opcion para ser responsive */
+*{text-decoration: none;}
+@media screen and (max-width: 31.5em) {
+	.cont {padding:0px 0px 0px 0px;}
+	.cont li {	width: 100%;	min-width: 300px;}
+}
+@media screen and (max-width: 25em) {
+	.np-icon span {display: none;}
+}
+
+.titulos{	color: #FFFFFF; font-weight: bold;	font-size: medium;}
+.letra{	color: #000000; }
+.cont {	padding: 0px 0px 0px 0px;	max-width: 1200px;	margin: 0 auto;	list-style: none;	text-align: center;}
+.cont li {	display: inline-block;	width: 22%;	margin: 0;	padding:0;	text-align: left;	position: relative;}
+.cont figure {	margin: 0;	position: relative;}
+.cont figure img {	max-width: 100%;	height:50%;	display: block;	position: relative;}
+.cont figcaption {	position: absolute;	top: 0;	left: 0;	padding: 20px;	background: #666666;	color: #ed4e6e;}
+
+figcaption span {color: black; display: block;    font-size: 13px;    margin: 12px 0;}
+.cont figcaption h3 {border-bottom: 1px solid #777777;    color: #FFFFFF;    margin: 0;    padding: 0 0 5px;}
+.cont figcaption a {text-align: center;	padding: 5px 10px;	border-radius: 2px;	display: inline-block;	background: #31a7c4;}
+
+.trans li {-webkit-perspective: 1800px;	-moz-perspective: 1800px;	perspective: 1800px;	-webkit-perspective-origin: 0 50%;	-moz-perspective-origin: 0 0%;	perspective-origin: 0 0%;}
+.trans figure {-webkit-transform-style: preserve-3d;	-moz-transform-style: preserve-3d;	transform-style: preserve-3d;}
+.trans figure > div {overflow: hidden;}
+.trans figure img { -webkit-transition: -webkit-transform 0.3s ease-out;	-moz-transition: -moz-transform 0.3s ease-out;	transition: transform 0.3s ease-out;}
+.trans figure:hover img{	-webkit-transform: translateX(23%);	-moz-transform: translateX(23%);	-ms-transform: translateX(23%);	transform: translateX(23%);	cursor: pointer;}
+.trans figcaption { background:#999999f7; border-radius:10px ; height: 100%;	width: 100%;	opacity: 0;	-webkit-backface-visibility: hidden;	-moz-backface-visibility: hidden;	backface-visibility: hidden;	-webkit-transform-origin: 0 0;	-moz-transform-origin: 0 0;	transform-origin: 0 0;	-webkit-transform: rotateY(-90deg);	-moz-transform: rotateY(-90deg);	transform: rotateY(-90deg);	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;	transition: transform 0.4s, opacity 0.1s 0.3s;}
+.trans figure:hover figcaption{opacity: 1;	-webkit-transform: rotateY(0deg);	-moz-transform: rotateY(0deg);	transform: rotateY(0deg);	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;	-moz-transition: -moz-transform 0.4s, opacity 0.1s;	transition: transform 0.4s, opacity 0.1s;}
+.trans figcaption a {	position: absolute;	bottom: 20px;	right: 20px;}
+.btn_hover:hover { text-decoration:none;    -webkit-transition: all 0.2s ease-in;	-moz-transition: all 0.2s ease-in;	-o-transition: all 0.2s ease-in; color: olive;}
+
+@media only screen and (max-width : 480px) {
+
+.cont figure img { width:95%;}
+#imga-card{
+	width: 50%;
+	height: 50%;
+}
+
+
+}
+.img-card{
+	width: 50%;
+	height: 50%;
+}
