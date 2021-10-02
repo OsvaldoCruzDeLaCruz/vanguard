@@ -1,4 +1,5 @@
 /*  Opcion para ser responsive */
+
 *{text-decoration: none;}
 @media screen and (max-width: 31.5em) {
 	.cont {padding:0px 0px 0px 0px;}
@@ -44,3 +45,4 @@ figcaption span {color: black; display: block;    font-size: 13px;    margin: 12
 	width: 50%;
 	height: 50%;
 }
+
