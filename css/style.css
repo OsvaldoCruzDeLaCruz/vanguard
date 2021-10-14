@@ -130,8 +130,9 @@ input, .textArea, .btnContacto{ width:95%;}
 
 .switch.activate{
 	background: orange;
-	color: #fff;
+	color: #fff;		
 }
+
 
 .switch span{
 	width: 50px;
@@ -158,3 +159,4 @@ body.dark .mnMenu:hover{
 body.dark .menu-icon{
 	color: white;
 }
+
