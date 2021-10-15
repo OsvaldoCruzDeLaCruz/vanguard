@@ -18,8 +18,8 @@ let changeModeDark = ()=>{
 let changeModeLigth = () =>{
     document.body.classList.toggle('Ligth');
     btnSwitch.classList.toggle('Ligth');
+    logo.src = "/images/logo_preview_rev_1.png";
     localStorage.setItem('dark-mode', 'False');
-    logo.src = "/images/logo_preview_rev_1.png"
 }
 
 
